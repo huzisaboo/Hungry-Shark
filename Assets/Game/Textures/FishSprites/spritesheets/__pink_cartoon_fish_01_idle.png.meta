@@ -1,0 +1,608 @@
+fileFormatVersion: 2
+guid: 2ebc0a4f6d5b89b4897dfdeabc162ebf
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1786750758132348951
+    second: __pink_cartoon_fish_01_idle_0
+  - first:
+      213: 4383423001944452822
+    second: __pink_cartoon_fish_01_idle_1
+  - first:
+      213: 4805932408247901763
+    second: __pink_cartoon_fish_01_idle_2
+  - first:
+      213: -8667527935232704217
+    second: __pink_cartoon_fish_01_idle_3
+  - first:
+      213: -8843853100235956945
+    second: __pink_cartoon_fish_01_idle_4
+  - first:
+      213: 6285580597083266944
+    second: __pink_cartoon_fish_01_idle_5
+  - first:
+      213: -859330626069572194
+    second: __pink_cartoon_fish_01_idle_6
+  - first:
+      213: -2887537797909338078
+    second: __pink_cartoon_fish_01_idle_7
+  - first:
+      213: 4663796434576784827
+    second: __pink_cartoon_fish_01_idle_8
+  - first:
+      213: -3695530488939154826
+    second: __pink_cartoon_fish_01_idle_9
+  - first:
+      213: -2175379834401368732
+    second: __pink_cartoon_fish_01_idle_10
+  - first:
+      213: -4191533071080630792
+    second: __pink_cartoon_fish_01_idle_11
+  - first:
+      213: 1668623136330958817
+    second: __pink_cartoon_fish_01_idle_12
+  - first:
+      213: 8829546772144084175
+    second: __pink_cartoon_fish_01_idle_13
+  - first:
+      213: 7047860819696974307
+    second: __pink_cartoon_fish_01_idle_14
+  - first:
+      213: -3572092862686826987
+    second: __pink_cartoon_fish_01_idle_15
+  - first:
+      213: 1237893461576078719
+    second: __pink_cartoon_fish_01_idle_16
+  - first:
+      213: 8891672953360166573
+    second: __pink_cartoon_fish_01_idle_17
+  - first:
+      213: -1871088392959112378
+    second: __pink_cartoon_fish_01_idle_18
+  - first:
+      213: -7285269064732454086
+    second: __pink_cartoon_fish_01_idle_19
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: __pink_cartoon_fish_01_idle_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1589
+        width: 418
+        height: 395
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e78c5fe6af2437e0800000000000000
+      internalID: -1786750758132348951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __pink_cartoon_fish_01_idle_1
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 1590
+        width: 416
+        height: 394
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6deec23fefb05dc30800000000000000
+      internalID: 4383423001944452822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __pink_cartoon_fish_01_idle_2
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 1590
+        width: 414
+        height: 394
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34e5728ff0a12b240800000000000000
+      internalID: 4805932408247901763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __pink_cartoon_fish_01_idle_3
+      rect:
+        serializedVersion: 2
+        x: 1254
+        y: 1591
+        width: 411
+        height: 393
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7210ea3f341c6b780800000000000000
+      internalID: -8667527935232704217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __pink_cartoon_fish_01_idle_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1194
+        width: 409
+        height: 393
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2dd2ba4672544580800000000000000
+      internalID: -8843853100235956945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __pink_cartoon_fish_01_idle_5
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 1195
+        width: 406
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08f5c38204eda3750800000000000000
+      internalID: 6285580597083266944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __pink_cartoon_fish_01_idle_6
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 1195
+        width: 404
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e955288395b0314f0800000000000000
+      internalID: -859330626069572194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __pink_cartoon_fish_01_idle_7
+      rect:
+        serializedVersion: 2
+        x: 1254
+        y: 1196
+        width: 401
+        height: 391
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 228a910fba76de7d0800000000000000
+      internalID: -2887537797909338078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __pink_cartoon_fish_01_idle_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 799
+        width: 399
+        height: 391
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbdbeabb52229b040800000000000000
+      internalID: 4663796434576784827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __pink_cartoon_fish_01_idle_9
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 800
+        width: 396
+        height: 390
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 672f72e9996d6bcc0800000000000000
+      internalID: -3695530488939154826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __pink_cartoon_fish_01_idle_10
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 801
+        width: 394
+        height: 388
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46555f6f09f7fc1e0800000000000000
+      internalID: -2175379834401368732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __pink_cartoon_fish_01_idle_11
+      rect:
+        serializedVersion: 2
+        x: 1254
+        y: 800
+        width: 397
+        height: 390
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f5dfe921eea4d5c0800000000000000
+      internalID: -4191533071080630792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __pink_cartoon_fish_01_idle_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 402
+        width: 399
+        height: 391
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e74109d6e3282710800000000000000
+      internalID: 1668623136330958817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __pink_cartoon_fish_01_idle_13
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 402
+        width: 402
+        height: 391
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc45851220ad88a70800000000000000
+      internalID: 8829546772144084175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __pink_cartoon_fish_01_idle_14
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 401
+        width: 404
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e97e6803180fc160800000000000000
+      internalID: 7047860819696974307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __pink_cartoon_fish_01_idle_15
+      rect:
+        serializedVersion: 2
+        x: 1254
+        y: 401
+        width: 407
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51ee7d697706d6ec0800000000000000
+      internalID: -3572092862686826987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __pink_cartoon_fish_01_idle_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3
+        width: 409
+        height: 393
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f75550f6b81ed2110800000000000000
+      internalID: 1237893461576078719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __pink_cartoon_fish_01_idle_17
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 3
+        width: 411
+        height: 393
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dae2bf3e071956b70800000000000000
+      internalID: 8891672953360166573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __pink_cartoon_fish_01_idle_18
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 2
+        width: 414
+        height: 394
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64bc052250f8806e0800000000000000
+      internalID: -1871088392959112378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __pink_cartoon_fish_01_idle_19
+      rect:
+        serializedVersion: 2
+        x: 1254
+        y: 2
+        width: 416
+        height: 394
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a33da77726685ea90800000000000000
+      internalID: -7285269064732454086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
