@@ -3,9 +3,8 @@
 --- !u!1 &8130282487138594200
 GameObject:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 2158126282716237196, guid: 2ea7a5245b77f30489516d5713138555,
-    type: 3}
-  m_PrefabInstance: {fileID: 7865436366904352788}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
@@ -21,9 +20,8 @@ GameObject:
 --- !u!4 &8130282487138594201
 Transform:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 2158126282716237197, guid: 2ea7a5245b77f30489516d5713138555,
-    type: 3}
-  m_PrefabInstance: {fileID: 7865436366904352788}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8130282487138594200}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
@@ -36,9 +34,8 @@ Transform:
 --- !u!212 &8130282487138594206
 SpriteRenderer:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 2158126282716237194, guid: 2ea7a5245b77f30489516d5713138555,
-    type: 3}
-  m_PrefabInstance: {fileID: 7865436366904352788}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8130282487138594200}
   m_Enabled: 1
@@ -94,6 +91,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8130282487912883666}
+  - component: {fileID: -3761660742969207268}
+  - component: {fileID: -3861192962534741703}
+  - component: {fileID: 261703609481645081}
   m_Layer: 0
   m_Name: GreenFish
   m_TagString: Untagged
@@ -109,44 +109,52 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8130282487912883677}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.50892144, y: 0.78108466, z: -0.70107514}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 8130282487138594201}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &7865436366904352788
-PrefabInstance:
+--- !u!114 &-3761660742969207268
+MonoBehaviour:
   m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 8130282487912883666}
-    m_Modifications:
-    - target: {fileID: 2158126282716237196, guid: 2ea7a5245b77f30489516d5713138555,
-        type: 3}
-      propertyPath: m_Name
-      value: GreenFishSprite
-      objectReference: {fileID: 0}
-    - target: {fileID: 2158126282716237197, guid: 2ea7a5245b77f30489516d5713138555,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2158126282716237197, guid: 2ea7a5245b77f30489516d5713138555,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2158126282716237197, guid: 2ea7a5245b77f30489516d5713138555,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2158126282716237197, guid: 2ea7a5245b77f30489516d5713138555,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 2ea7a5245b77f30489516d5713138555, type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8130282487912883677}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 490862cb9b5538140a79279bae39eb6d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_parallaxSpeed: 3
+--- !u!70 &-3861192962534741703
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8130282487912883677}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.03}
+  m_Size: {x: 0.94, y: 1}
+  m_Direction: 0
+--- !u!114 &261703609481645081
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8130282487912883677}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2214271242c184479a038061492f44c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_FishType: 1

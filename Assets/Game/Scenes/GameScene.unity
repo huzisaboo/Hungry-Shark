@@ -204,6 +204,102 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &568465950
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 568465951}
+  - component: {fileID: 568465952}
+  m_Layer: 0
+  m_Name: FishPooler
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &568465951
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 568465950}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 8.16, y: 0.78108466, z: -0.70107514}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &568465952
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 568465950}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8e3f7ed90dc08d4cb66ac76280d602c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_minY: -4.4
+  m_maxY: 4.4
+  m_poolSize: 8
+  m_maxSpawnTime: 3
+  m_fishPrefabArray:
+  - {fileID: 2108461315687277879, guid: 39aff452eaf0c7749923a0306d574288, type: 3}
+  - {fileID: 8130282487912883677, guid: 9c613506dd337514faa8a175bc715c09, type: 3}
+  - {fileID: 5837274778629218767, guid: efda34a323e0e314bb0a193815d6c1a7, type: 3}
+  - {fileID: 511534990110842712, guid: 8d18b3cbc777a654aac728f3e4a0eb4f, type: 3}
+--- !u!1 &2094170877
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2094170878}
+  - component: {fileID: 2094170879}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2094170878
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2094170877}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -6.2373257, y: 0.060502358, z: -0.044032954}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2094170879
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2094170877}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 660002da04515094ea5750c96e0432df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_totalTypesOfFish: 4
 --- !u!1001 &3854508153214025397
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -271,5 +367,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlayerShark
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 8093924728674036689, guid: d159bf4fcdf981c4899b33faf8f0fdf3, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: d159bf4fcdf981c4899b33faf8f0fdf3, type: 3}
