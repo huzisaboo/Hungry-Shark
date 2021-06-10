@@ -7,6 +7,7 @@ public class GameManager : Singleton<GameManager>
     [SerializeField] private int m_totalTypesOfFish;
     private Fish.FishType m_targetFish;
     private int m_score;
+
     private void Start()
     {
         int a_rand = Random.Range(0, m_totalTypesOfFish);
@@ -28,7 +29,7 @@ public class GameManager : Singleton<GameManager>
                 m_targetFish = Fish.FishType.PinkFish;
                 break;
         }
-        UIManager.instance.UpdateFishType(m_targetFish);
+        UIManager.Instance.UpdateFishType(m_targetFish);
     }
 
     public Fish.FishType GetTargetFish()
@@ -39,6 +40,6 @@ public class GameManager : Singleton<GameManager>
     public void IncreaseScore()
     {
         m_score++;
-        UIManager.instance.UpdateScore(m_score);
+        UIManager.Instance.UpdateScore(m_score);
     }
 }
