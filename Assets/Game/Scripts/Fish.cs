@@ -14,7 +14,7 @@ public class Fish : MonoBehaviour
 
     [SerializeField] private FishType m_FishType;
     
-    private FishType GetFishType()
+    public FishType GetFishType()
     {
         return m_FishType;
     }

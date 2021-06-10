@@ -128,7 +128,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 490862cb9b5538140a79279bae39eb6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_parallaxSpeed: 3
+  m_parallaxSpeed: 2
 --- !u!70 &4940738455238513460
 CapsuleCollider2D:
   m_ObjectHideFlags: 0

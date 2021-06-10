@@ -26,7 +26,6 @@ public class SharkMovement : MonoBehaviour
             Vector3 a_movePosition = m_mainCamera.ScreenToWorldPoint(new Vector3(m_mousePosition.x, m_mousePosition.y,0));
             Vector2 a_directionVector = (a_movePosition - transform.position).normalized;
             float a_dot = Vector2.Dot(transform.up, a_directionVector);
-            Debug.Log(a_dot);
             if (a_dot > m_movementDeadZoneFactor)
             {
                 transform.position += transform.up * m_speed * Time.deltaTime;

@@ -52,6 +52,10 @@ public class FishPool : MonoBehaviour
 
     private void EnterFish(int p_fishIndex)
     {
+        if(!m_fishPool[p_fishIndex].activeInHierarchy)
+        {
+            m_fishPool[p_fishIndex].SetActive(true);
+        }
         m_yPosValue = Random.Range(m_minY, m_maxY);
         m_fishPool[p_fishIndex].transform.position = new Vector2(m_xPosValue, m_yPosValue);
     }
