@@ -50,7 +50,7 @@ public class EatFish : MonoBehaviour
                 //Ate Incorrect Fish
                 m_sharkHealth -= m_damage;
                 Debug.Log(m_sharkHealth);
-                m_healthBarUI.value = m_sharkHealth;
+                m_healthBarUI.value = m_sharkHealth/m_maxHealth;
                 // change the color of the health fill image depending upon the health value 
                 m_healthFill.color = m_healthGradient.Evaluate(m_healthBarUI.normalizedValue);
 

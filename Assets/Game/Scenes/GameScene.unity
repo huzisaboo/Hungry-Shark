@@ -1122,6 +1122,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlayerShark
       objectReference: {fileID: 0}
+    - target: {fileID: 6500189931029061091, guid: d159bf4fcdf981c4899b33faf8f0fdf3,
+        type: 3}
+      propertyPath: m_healthGradient.atime1
+      value: 65535
+      objectReference: {fileID: 0}
+    - target: {fileID: 6500189931029061091, guid: d159bf4fcdf981c4899b33faf8f0fdf3,
+        type: 3}
+      propertyPath: m_healthGradient.atime0
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 8093924728674036689, guid: d159bf4fcdf981c4899b33faf8f0fdf3, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: d159bf4fcdf981c4899b33faf8f0fdf3, type: 3}
